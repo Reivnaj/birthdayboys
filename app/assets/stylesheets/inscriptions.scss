@@ -1,0 +1,17 @@
+#countdown div{
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    background: black;
+    border: 2px solid gray;
+    border-radius:  10%;
+    margin: 15px;
+}
+
+#countdown em{
+    display: block;
+}
+
+#countdown strong{
+    font-size: 3em;
+}

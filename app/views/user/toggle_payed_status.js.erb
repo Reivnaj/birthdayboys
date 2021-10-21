@@ -1,0 +1,6 @@
+<% if @user.payed == true %>
+    $(".user-<%= @user.id %> > a").html('à payé').removeClass('btn-danger').addClass('btn-success')
+<% else %>
+    $(".user-<%= @user.id %> > a").html('radin').removeClass('btn-success').addClass('btn-danger')
+<% end %>
+$("#user-status-<%= @user.id %>").html("<%= @user.payed %>")
