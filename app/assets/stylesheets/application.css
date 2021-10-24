@@ -47,5 +47,19 @@
 }
 
 .btn-form:hover {
-    background-color: rgb(39, 26, 58) !important;
+    background-color: rgb(58, 39, 87) !important;
+}
+
+@media screen and (max-width: 750px) {
+    .main-form {
+        width: 80%;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .display-1 {
+        font-size: 5rem !important;
+        
+    }
 }
