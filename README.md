@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version : 2.5.1
 
-Things you may want to cover:
+* Rails version : ~> 5.2.6
 
-* Ruby version
+* Configuration : This app use sendgrid api and bootstrap cdn. 
 
-* System dependencies
+* Database creation : `$ rails db:create`
 
-* Configuration
+* Database initialization : `$ rails db:migrate`
 
-* Database creation
+It works as it is on production whith heroku. Just be sure to downgrade heroku stack to 18 because the actual stack (20) doesn't support anymore this version of Ruby.  
+So when creating the app use `$ heroku create --stack heroku-18`.  
+When you change the stack on an existing app use `$ heroku stack:set heroku-18`.
 
-* Database initialization
+Or upgrade ruby version. 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This app were made for a birthday party with a consequent number of participants. We wanted them to be able to participate financially throught a custom layout and website. Which gave us more credibility and created more commitment for this event.
