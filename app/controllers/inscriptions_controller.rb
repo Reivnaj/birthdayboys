@@ -10,7 +10,7 @@ class InscriptionsController < ApplicationController
     def create
        @user = User.new(user_params)
        if @user.save
-        redirect_to "https://lydia-app.com/collect/53525-jb-n-t/fr", notice: "Allééééé làà !"
+        redirect_to "https://lydia-app.com/collect/31121-25-ans-jb-thom/fr", notice: "Allééééé làà !"
        else
         render :new
        end 
