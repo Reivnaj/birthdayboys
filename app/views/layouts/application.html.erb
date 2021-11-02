@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Birthdayboy</title>
+    <title>Birthdayboys</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -13,15 +13,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- favicon -->
+     <%= favicon_link_tag asset_path('jib_16x16.png') %>
   </head>
 
   <body class="house-pic">
     
-    <%
-=begin%>
- <%= render partial: "shared/navbar" %> 
-<%
-=end%>
+    
     <div class="container">
     <%= yield %>
     </div>
